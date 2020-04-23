@@ -1,0 +1,31 @@
+.fondoRojo{
+    background-color: red;
+}
+
+.fondoAzul{
+    background-color: blue;
+}
+
+#vader{
+    font-size: 50px;
+}
+
+#luke{
+    font-style: italic;
+}
+
+.borde{
+    border-style: dashed;
+}
+
+.espacio{
+    letter-spacing: 3px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.mayus{
+    text-transform: uppercase;
+}
