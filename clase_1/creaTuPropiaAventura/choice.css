@@ -1,0 +1,25 @@
+body{
+    background-color: darkslategray;
+}
+
+.centrado{
+    text-align: center; 
+}
+
+.naranja{
+    color: orange;
+    
+}
+
+.tamanio{
+    font-size: 25px;
+}
+
+.margenIzquierda{
+    margin-left: 400px;
+}
+
+
+.rojo{
+    color:red
+}

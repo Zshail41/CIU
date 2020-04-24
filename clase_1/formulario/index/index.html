@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>
+            PetBook
+        </title>
+
+    </head>
+
+    <body>
+
+        <h1>
+            Bienvenid@ a PetBook! 
+        </h1>
+
+        <p>
+            La red social hecha por mascotas para mascotas. REGISTRATE YA!
+        </p>
+
+        <form action="https://formspree.io/seba.e.mdo@gmail.com" method="POST">
+            
+            <label>Nombre: <input type="text" name="nombre" placeholder="Ingrese nombre" required> </label> <br> <br>
+            <label for="edad">Edad: </label><input type="number" id="edad" name="edad" placeholder="Ingrese edad" required> <br> <br>
+            <label>Email: <input type="email" name="mail" placeholder="Ingrese email" required> </label> <br> <br>
+            <label for="pass">Contraseña: </label><input type="password" id="pass" name="contraseña" placeholder="Ingrese contraseña" required> <br> <br>
+            <label>Color de la mascota: <input type="color" name="color" > </label> <br> <br>
+            <label>Macho <input type="radio" name="genero"  value="macho"> </label>
+            <label>Hembra <input type="radio" name="genero" value="hembra"> </label> <br> <br>
+            <label>Tipo de mascota:<select name="tipo_de_mascota" required> 
+                <option value="perro"> Perro </option>
+                <option value="gato"> Gato </option>
+                <option value="conejo"> Conejo </option>
+                <option value="rata"> Rata </option>
+                <option value="loro"> Loro </option>
+                <option value="dinosaurio"> Dinosaurio </option>
+                <option value="Otro"> Otro </option>
+            </select></label> <br> <br>
+            <label>Acepto las bases y condiciones <input type="checkbox" name="basesYcondiciones" value="acepta" required> </label> <br> <br>
+            <label>Contanos como es tu mascota: <br> <textarea name="textarea" rows="10" cols="40" value="textarea"></textarea></label> <br> <br>
+            
+            <input type="submit">
+        </form>
+
+
+
+    </body>
+
+
+
+</html>
