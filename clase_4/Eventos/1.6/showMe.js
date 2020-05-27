@@ -1,0 +1,1 @@
+var moni = document.getElementById("moni")
