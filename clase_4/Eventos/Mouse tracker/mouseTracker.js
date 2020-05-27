@@ -10,8 +10,8 @@ function move(e) {
  //No puedo usar clientX ni ClientY.
         
    
-       imagen.style.top= String.fromCharCode(parseInt(e.clientY)) + "px";
-       imagen.style.left = String.fromCharCode(parseInt(e.clientX)) + "px";
+       imagen.style.top= e.clientY.toString() + "px";
+       imagen.style.left = e.clientX.toString() + "px";
       
 
        console.log(e.clientX);
